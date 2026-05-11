@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio - Candidat Développeur</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+  <h1>FIRMIN-GUIION Djellan</h1>
+  <p>Développeur web en formation (studi)</p>
+  <button onclick="changeTitre()">Clique ici</button>
+</header>
+
+<main>
+
+  <section class="about">
+    <h2>À propos</h2>
+    <p>
+      Actuellement en formation développeur web en alternance chez studi,
+      je recherche une entreprise pour développer mes compétences en développement web.
+    </p>
+
+    <p>
+      Je découvre et pratique les bases du développement web : HTML, CSS et JavaScript.
+     </p>
+
+     <p>
+       J’ai commencé à créer des projets simples afin de comprendre la structure d’un site web et le fonctionnement des technologies front-end.
+    </p>
+
+    <p>
+        Mon objectif est d’intégrer une alternance afin de progresser en entreprise et monter en compétences sur des projets concrets.
+    </p>
+
+  </section>
+
+  <section class="skills">
+    <h2>Compétences</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript (bases)</li>
+      <li>Git (notions)</li>
+    </ul>
+  </section>
+
+  <section class="project">
+    <h2>Projet</h2>
+    <p>
+      Ce site est un projet simple réalisé pour ma candidature en alternance développeur web.
+    </p>
+  </section>
+
+</main>
+<script>
+  function changeTitre() {
+    const titre = document.querySelector("h1");
+    titre.innerText = "Développeur web en progression";
+  }
+</script>
+</body>
+</html>
